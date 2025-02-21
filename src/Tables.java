@@ -1,3 +1,4 @@
+/*
 Scanner sc = new Scanner(System.in);
         System.out.println("Donnez la taille du tableau : ");
         int t = sc.nextInt();
@@ -35,3 +36,5 @@ Scanner sc = new Scanner(System.in);
         }
         System.out.println();
         }
+
+ */

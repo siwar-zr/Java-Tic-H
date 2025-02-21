@@ -1,44 +1,92 @@
-import models.Calculatrice;
-import models.Human;
-import models.Mobile;
+import models.*;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+/*
 
-        /*Calculatrice calc = new Calculatrice();
-        calc.n1 = 5;
-        calc.n2 = 6;
-        int res = calc.add();
-        int res1 = calc.add(3,6);
-        double res2 = calc.add(3.4,1);
-        double res3 = calc.add(3,6);
 
-        System.out.println(res+" "+res1+" "+res2+" "+res3);*/
-
-        /*Mobile.category = "Smartphone";
-        Mobile m1 = new Mobile();
-        m1.brand = "Apple";
-        m1.price = 1500;
-        //m1.category = "Smartphone";
-
-        Mobile m2 = new Mobile();
-        m2.brand = "Samsung";
-        m2.price = 1800;
-        //m2.category = "Phone";
+        Mobile mob1 = new Mobile();
+        mob1.brand= "Apple";
+        mob1.price = 1500;
+        //mob1.name= "Phone";
 
 
 
+        Mobile mob2 = new Mobile();
+        mob2.brand= "Samsung";
+        mob2.price = 2100;
+        //mob2.name = "tlp";
 
-        m1.show();
-        m2.show();
-        Mobile.show1(m1);*/
+        Mobile mob3 = new Mobile("HP",5000);
 
-        Human h1 = new Human(26,"Ali");
-        h1.setAge(30);
-        h1.setName("Mouhamed");
+        mob1.affiche();
+        mob2.affiche();
+        mob3.affiche();
 
-        System.out.println(h1.getAge());
+        //Mobile.affiche2(mob1);
+
+        Human h1 = new Human();
+
+        h1.setName("Ali");
+        h1.setAge(25);
+
+        System.out.println(h1.getName()+" : "+h1.getAge());
+*/
+/*
+
+        //Exercice 1:
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Entrez le titre du livre : ");
+        String titre = sc.next();
+        System.out.print("Entrez l'auteur du livre : ");
+        String auteur = sc.next();
+        System.out.print("Entrez la disponibilite du livre : ");
+        boolean dispo = sc.nextBoolean();
+
+        Livre livre = new Livre(titre,auteur,dispo);
+        livre.showDetails();
+
+        System.out.println();
+        System.out.println("Premier empreint :");
+        livre.emprunter();
+        livre.showDetails();
+        System.out.println();
+        System.out.println("Deuxieme empreint :");
+        livre.emprunter();
+        livre.showDetails();
+        System.out.println();
+        System.out.println("Premier retour :");
+        livre.retourner();
+        livre.showDetails();
+        System.out.println();
+        System.out.println("Deuxieme retour :");
+        livre.retourner();
+        livre.showDetails();*/
+
+        //exercice 2
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Entrez le numero du compte : ");
+        String numero = sc.next();
+        System.out.print("Entrez le solde initial du compte : ");
+        double solde = sc.nextDouble();
+
+        CompteBancaire cb = new CompteBancaire(numero,solde);
+
+        System.out.println();
+        System.out.println("1er depot");
+        cb.deposer(1000);
+        System.out.println();
+        System.out.println("1er retrait");
+        cb.retirer(1000);
+        System.out.println();
+        System.out.println("2eme retrait");
+        cb.retirer(1000);
+        System.out.println();
+        System.out.println("3eme retrait");
+        cb.retirer(100);
     }
 }

@@ -1,0 +1,8 @@
+
+i
+java:S1192,"GDefine a constant instead of duplicating this literal "Livre " 3 times.(‚çÓ‰úÿÿÿÿ8§Ü¢ÈÒ2
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(ÇÂÌ³8¾Ü¢ÈÒ2
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(‚çÓ‰úÿÿÿÿ8¿Ü¢ÈÒ2
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(¦¶÷áÿÿÿÿÿ8ÀÜ¢ÈÒ2
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(ù…ˆ8ÁÜ¢ÈÒ2
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(ÜµÎ•8ÂÜ¢ÈÒ2
