@@ -31,6 +31,7 @@ public class Vehicule {
 
     // Méthode pour calculer le prix total de location
     public double calculerPrixLocation(int jours) {
+
         return prixParJour * jours;
     }
 }
