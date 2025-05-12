@@ -65,3 +65,21 @@ e
 -src/Exceptions/Seriesexercices/Exercice3.java,e\d\ed6078fa6b04dff92c0f4140ca2284974da50315
 ]
 -src/Exceptions/Seriesexercices/Exercice4.java,f\0\f0ae4f5c49f8a60f5fecd0f6333a639a436b084d
+Q
+!src/Generics/GenericsExemple.java,2\3\2373741cb04870706dc887dc26b6f936791d4208
+K
+src/CollectionApi/Demo.java,9\a\9a4b6485170d973e72b0f98b92248ebe4c37151d
+Q
+!src/CollectionApi/MapExemple.java,9\e\9ee31e35d58ed24a6d5d7b49c177d4f061c67116
+P
+ src/Generics/IntegerPrinter.java,5\d\5d812e659bb1b01280b2327ebdf15729d4d4c801
+O
+src/Generics/StringPrinter.java,8\8\88d64e8e9019b25b9c8b0337c9954330c802cde4
+O
+src/Generics/DoublePrinter.java,2\5\255c4d8563fe62c4e1660accb6c422458d98bbad
+I
+src/Generics/Printer.java,d\4\d417e60c55820399b4e407b2ea6d0101904374b6
+G
+src/StreamApi/Demo.java,d\2\d2aa653575483b4e090729ef252f91050a5c1dfe
+N
+src/GarbageCollector/Demo.java,7\d\7d9245891c9564cd619dbcd229edfcebecb05d63

@@ -14,6 +14,7 @@ public class Demo {
     private static void doStuff(){
         Human h1 = new Human();
         h1.talk();
+        h1 = new Human();
         h1 = null;
     }
 
